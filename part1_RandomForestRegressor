@@ -8,12 +8,7 @@ import matplotlib.pyplot as plt
 
 # Download the Machine operating parameters
 path = 'path_to_datafile.xlsx'
-column_names = ['VI06273', 'KI06275','KI06276','VXI06253',
-                'VYI06253', 'VXI06254', 'VYI06254', 'VXI06255', 'VYI06255',
-                'VXI06256', 'VYI06256', 'ZI06272C',
-                'PI00117', 'PI00121C', 'FI00124',
-                'PDI00118', 'TI00116', 'TI00122', 'JI06003', 'II06003', 'EI06003',
-                'VXI06252', 'VYI06252', 'VXI06251', 'VYI06251', 'ZI06271A']
+column_names = ['parameters tags']
 
 # Import the dataset using pandas
 #Determine the column names
